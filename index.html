@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASTRONOVA</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-shell">
+      <header class="hud">
+        <div class="brand">ASTRONOVA</div>
+        <div class="stats">
+          <span>Puntuación: <strong id="score">0</strong></span>
+          <span>Vidas: <strong id="lives">3</strong></span>
+          <span>Nivel: <strong id="level">1</strong></span>
+        </div>
+      </header>
+
+      <canvas id="gameCanvas" width="900" height="600" aria-label="Juego ASTRONOVA"></canvas>
+
+      <div class="controls">
+        <button id="startButton">Start Game</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
